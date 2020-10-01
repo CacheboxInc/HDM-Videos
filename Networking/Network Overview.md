@@ -2,9 +2,9 @@
 size: 1080p
 ---
 
-This Video will give an overview of how networking in configured for HDM and how you can map your datacenter network for use in HDM.
+This Video will give an overview of how networking is configured for HDM and how you can map your datacenter network for use in HDM.
 ![](001-Multi-network VCS.png)
-This diagram shows a typical network configuration for a customer and how they would configure the cloud. 
+This diagram shows a typical network configuration of a typical vSphere and how they would configure the cloud. 
 
 First lets start with the configuration on premises. 
 
