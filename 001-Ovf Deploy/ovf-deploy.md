@@ -54,3 +54,16 @@ The "ESXi Network" is the network over which the ESXi servers part of the cluste
 configured on the same network. In this case both the "VM Network" configured earlier
 and "ESXi Network" in this step would point to the same network.
 --- 
+![](009-HDM-Static-DHCP.mov)
+After selecting the networks, we now need to select how these network interfaces are configured, "Static IP" or "DHCP".
+
+The *Static* option lets you configure a static IP for the above network interfaces. 
+
+The *DHCP* will configure network configuration using the DHCP protocol.
+
+The *Static-Pool* and *Transient-Pool* options aren't supported for the ovf deployment.
+
+---
+![](010-HDM-Submit.mov)
+
+--- 
