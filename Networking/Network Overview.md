@@ -58,4 +58,5 @@ The "HDM Internal Network" is the private network over which the components of H
 --- 
 ![](032-Multi-network VCS.png)
 This is the most flexible configuration of HDM possible. However depending on how your application or premises network is configured
-one or more of the networks might be combined into one.
+one or more of the networks might be combined into one. Corresponding to these we have specialized guides for a "Single Network" configuration and
+a "Multi-Network" configuration.
