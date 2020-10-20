@@ -1,36 +1,16 @@
 ---
 size: 1080p
 ---
+![](start-screen.png)
+This video will explain the networks that need to be configured on the HDM 
+appliance during deployment.
 
-This video will show you how to deploy the HDM appliance.
-
-The links to download the appliance are part of your welcome kit, please use 
-the link to download the OVF image. The OVF image is about 6GB in size.
-
-![](001-deploy-ovf-url.mov)
-Use the "Deploy OVF Template" in vCenter to deploy the downloaded OVF. 
-
---- 
-
-![](002-Select-compute-resorcepool.mov)
-
-Place the appliance on the cluster from where you want to migrate VMs. 
-
----
-
-
-![](003-Review-details.mov)
-Note this OVF has advanced configuration options to allow configuration of the network. 
---- 
-
-![](004-Select storage.mov)
-Select the datastore on which you want to deploy the appliance.
-
---- 
-![](005-HDM-inter-NW.mov)
 To configure the networks correctly you would need to refer to the "network planning"
 section of online documentation. This explain then underlying 
 connectivity HDM requires to the "Cloud" to perform migration operations. 
+---
+
+![](005-HDM-inter-NW.mov)
 
 In this screen the "HDM Internal Network" is the network on which the HDM components will use for its internal communication.
 
@@ -63,7 +43,3 @@ The *DHCP* will configure network configuration using the DHCP protocol.
 
 The *Static-Pool* and *Transient-Pool* options aren't supported for the ovf deployment.
 
----
-![](010-HDM-Submit.mov)
-
---- 
